@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h4{
+    font-family: 黑体;
+    font-size: 18px;
+}
+#containt{
+    width: 1000px;
+    height: 800px;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+#left{
+    width: 160px;
+    height: 550px;
+    float: left;
+}
+#top{
+    background-color: #000000;
+    width: 160px;
+    height: 160px;
+    margin-top: 0px;
+}
+#top1{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    font-size: 16px;
+    font-family: 黑体;
+}
+#top2{
+    margin-top:10px;
+    padding-left: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: 黑体;
+}
+#top3{
+    margin-top: 40px;
+    padding-left: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 黑体;
+}
+.zhong{
+    width: 150px;
+    height: 186px;
+    margin-top: 30px;
+}
+.zhong ul #li1{
+    width: 158px;
+    height: 30px;
+    margin-left: -40px;
+    border: 1px solid silver;
+}
+
+.li2 .mm,#li1 .mm{
+    display:block;
+    float: left;
+    margin-top:5px;
+    color: black;
+}
+.li2 .mn,#li1 .mn{
+    font-size: 18px;
+    font-family: 黑体;
+    color: black;
+}
+.li2 .nn,#li1 .nn{
+    font-size: 5px;
+    color: silver;
+}
+.zhong ul .li2{
+    color: black;
+    width: 158px;
+    height: 30px;
+    margin-left: -40px;
+    border: 1px solid silver;
+    border-top:0px;
+}
+a{
+    text-decoration: none;
+}
+#three{
+    margin-top: 20px;
+}
+#four{
+    margin-top: 10px;
+}
+.right{
+    width: 427px;
+    height: 500px;
+    float:left;
+    margin-left: 0px;
+}
+.right2{
+    width: 200px;
+    height: 500px;
+    float:left;
+    margin-left: 100px;
+}
+#right1top{
+    width: 150px;
+    height: 150px;
+}
+#right1top1{
+    padding-top: 50px;
+    padding-left: 0px;
+}
+#right1top2{
+    margin-top: 5px;
+    margin-left: 0px;
+}
+#rightzhong2{
+    margin-top: 80px;
+    height: 50px;
+}
+#rightzhong3{
+    margin-top: 50px;
+    height: 80px;
+}
+#rightzhong4{
+    margin-top: 50px;
+    height: 80px;
+}
+#rightzhong5{
+    margin-top: 80px;
+    height: 20px;
+    width: 50px;
+    float: right;
+}
+#footer{
+    border-top: 1.5px solid silver;
+    border-bottom: 1.5px solid silver;
+    margin-left: 0px;
+    width: 950px;
+    height: 100px;
+    margin-top: 0px;
+    float: left;
+    clear:left;
+}
+#vv{
+    padding-top: 40px;
+}
