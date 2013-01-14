@@ -24,21 +24,20 @@ body{
     padding-left: 20px;
     color: white;
     font-size: 16px;
-    font-family: 黑体;
 }
 #top2{
     margin-top:10px;
     padding-left: 20px;
     color: white;
     font-size: 25px;
-    font-family: 黑体;
+    font-family: "黑体";
 }
 #top3{
     margin-top: 40px;
     padding-left: 20px;
     color: white;
     font-size: 20px;
-    font-family: 黑体;
+    font-family: "黑体";
 }
 .zhong{
     width: 150px;
@@ -51,7 +50,6 @@ body{
     margin-left: -40px;
     border: 1px solid silver;
 }
-
 .li2 .mm,#li1 .mm{
     display:block;
     float: left;
@@ -59,9 +57,10 @@ body{
     color: black;
 }
 .li2 .mn,#li1 .mn{
-    font-size: 18px;
-    font-family: 黑体;
+    font-size: 15px;
+    font-family: "黑体";
     color: black;
+    font-weight: bold;
 }
 .li2 .nn,#li1 .nn{
     font-size: 5px;
@@ -78,86 +77,118 @@ body{
 a{
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
 #three{
     margin-top: 20px;
 }
 #four{
     margin-top: 10px;
 }
-.right{
+#right1{
+    margin-left: 60px;
     width: 200px;
-    height: 630px;
-    float:left;
-    margin-left: 50px;
+    height: 1500px;
+    float: left;
 }
-.right2{
-    width: 260px;
-    height: 600px;
-    float:left;
-    margin-left: 50px;
-}
-#right1top{
-    width: 150px;
-    height: 150px;
+#right11{
+    margin-top: 70px;
+    width: 200px;
+    height: 50px;
 }
 #right1top1{
-    padding-top: 70px;
-    padding-left: 0px;
+    font-size: 25px;
     font-weight: bold;
-    font-size: 24px;
 }
 #right1top2{
-    margin-top: 5px;
-    margin-left: 0px;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
     color: #666666;
 }
-#right1zhong{
-    margin-top: 10px;
-    height: 320px;
-}
-#right1zhong2{
-    margin-top: -10px;
-    color: #666666;
-    font-size: 20px;
-    width: 220px;
-    font-weight:bolder;
-    letter-spacing: -3px;
-}
-#rightzhong2{
-    margin-top: 160px;
-    height: 150px;
-}
-#right2kong2{
+#tupian1{
     margin-top: 40px;
+    width: 200px;
+    height: 800px;
 }
-.rightzhong2ziti{
-    width: 250px;
-    heght:10px;
-    font-size: 5px;
+.jieshi{
     color: #666666;
-    letter-spacing: -1.5px;
+    margin-top: 20px;
+    width: 170px;
+    height: 140px;
+    font-size: 3px;
 }
-#rightzhong3{
-    margin-top: 180px;
-    width: 260px;
-    height: 250px;
-    color: #666666;
-    font-family: inherit;
-    font-size: 12px;
+.lione,.litwo{
+    float:left;
+    width: 40px;
 }
-#rightzhong4{
-    float: right;
+.lithree{
+    float:left;
+    clear:left;
+    width: 40px;
+    height: 20px;
+}
+.lifour{
+    float: left;
+    width: 100px;
+}
+.lifive{
+    float: left;
+    width: 170px;
+    margin-left: 40px;
+    margin-top: -20px;
+    word-spacing: -10px;
+}
+.ul2{
+    list-style: none;
+    margin-left: -40px
+}
+.ul2 li{
+    line-height: 20px;
+    display: block;
+}
+.span1{
+    display:inline-block;    width: 50px;
+    color: #666;
+    font-family: "黑体";
+    float: left;
+}
+.span2{
+    display: inline-block;
+    color: #666;
+    float: left;
+}
+.right2span{
+    display: block;
+
+    color: #666;
+    float: left;
+}
+.right2span2{
+    display: block;
+    padding-left: 0px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: #666;
+    float: left;
+}
+.right2{
+    margin-top: 160px;
+    margin-left: 60px;
+    width: 200px;
+    height: 800px;
+    float: left;
 }
 #footer{
     border-top: 1.5px solid silver;
     border-bottom: 1.5px solid silver;
     padding-top: 40px;
     margin-left: 0px;
-    width: 960px;
+    width: 950px;
     height: 60px;
-    margin-top: 0px;
+    margin-top: 100px;
+    margin-bottom: 20px;
     float: left;
     clear:left;
 }

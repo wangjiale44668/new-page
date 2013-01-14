@@ -2,6 +2,14 @@ body{
     margin: 0px;
     padding: 0px;
 }
+.one{
+    font-size: 18px;
+    font-weight: bold;
+}
+#two{
+    font-size: 16px;
+    font-weight: bold;
+}
 #containt{
     width: 1000px;
     height: 800px;
@@ -24,21 +32,20 @@ body{
     padding-left: 20px;
     color: white;
     font-size: 16px;
-    font-family: 黑体;
 }
 #top2{
     margin-top:10px;
     padding-left: 20px;
     color: white;
     font-size: 25px;
-    font-family: 黑体;
+    font-family: "黑体";
 }
 #top3{
     margin-top: 40px;
     padding-left: 20px;
     color: white;
     font-size: 20px;
-    font-family: 黑体;
+    font-family: "黑体";
 }
 .zhong{
     width: 150px;
@@ -51,7 +58,6 @@ body{
     margin-left: -40px;
     border: 1px solid silver;
 }
-
 .li2 .mm,#li1 .mm{
     display:block;
     float: left;
@@ -59,9 +65,10 @@ body{
     color: black;
 }
 .li2 .mn,#li1 .mn{
-    font-size: 18px;
-    font-family: 黑体;
+    font-size: 15px;
+    font-family: "黑体";
     color: black;
+    font-weight: bold;
 }
 .li2 .nn,#li1 .nn{
     font-size: 5px;
@@ -84,103 +91,67 @@ a{
 #four{
     margin-top: 10px;
 }
+ul{
+    list-style:none;
+}
 .right{
-    margin-left: 40px;
+    width: 427px;
+    height: 500px;
+    float:left;
+    margin-left: 0px;
+}
+.right2{
     width: 200px;
-    height: 450px;
-    float: left;
+    height: 500px;
+    float:left;
+    margin-left: 100px;
 }
 #right1top{
-    margin-left: 0px;
-    margin-top: 70px;
-    width: 200px;
-    height: 90px;
+    width: 150px;
+    height: 150px;
 }
 #right1top1{
-    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 0px;
 }
 #right1top2{
-    font-size: 15px;
-    color: #666666;
-}
-#right1b{
+    margin-top: 5px;
     margin-left: 0px;
 }
-#right11{
-    width:200px ;
-    height: 180px;
-    margin-top:90px ;
-    font-size: 15px;
-    color: #666;
-    font-weight: bold;
-}
-#right2{
-
-    margin-top: 160px;
-    margin-left: 80px;
-    font-size: 15px;
-    color: #666666;
-    word-spacing: 0em;
-    width: 250px;
-    height: 450px;
-    float: left;
-}
-.right21{
-
-    width: 250px;
+#rightzhong2{
+    margin-top: 80px;
     height: 50px;
-    text-align: center;
 }
-.right211{
-    font-family:  黑体;
-    color: black;
-    font-weight: bold;
-}
-.right212{
-    font-family:  黑体;
-    color: #666;
-    font-weight: bold;
-}
-.right22{
-    background-color: silver;
-    margin-top: 40px;
+#rightzhong3{
+    margin-top: 50px;
     width: 250px;
-    height: 70px;
+    height: 80px;
 }
-#right22span{
-    display: block;
-    padding-top: 20px;
-    margin-left:45px;
-    font-family: 黑体;
-    font-size: 20px;
-    color: black;
-}
-#right22span2{
-    display: block;
-    padding-top: 20px;
-    margin-left:55px;
-    margin-left:55px;
-    font-family: 黑体;
-    font-size: 20px;
-    color: black;
-}
-.right33{
-    margin-top: 40px;
+#rightzhong4{
+    margin-top: 50px;
     width: 250px;
-    height: 100px;
-    font-size: 12px;
-    font-style: italic;
-    font-weight: bold;
+    height: 80px;
 }
-#right3{
-    margin-top: 160px;
-    margin-left: 20px;
-    font-size: 15px;
+#rightzhong5{
+    margin-top: 80px;
+    height: 20px;
+    width: 50px;
+    float: right;
+}
+#pone{
+    margin-top: -20px;
     color: #666666;
-    word-spacing: 0em;
-    width: 250px;
-    height: 450px;
-    float: left;
+    font-size: 23px;
+    font-weight: bold;
+}
+#ptwo{
+    margin-top: -20px;
+    color: #666666;
+    font-size: 15px;
+}
+#pthree{
+    margin-top: -20px;
+    color: #666666;
 }
 #footer{
     border-top: 1.5px solid silver;
@@ -189,7 +160,7 @@ a{
     margin-left: 0px;
     width: 950px;
     height: 60px;
-    margin-top: 0px;
+    margin-top: 20px;
     float: left;
     clear:left;
 }

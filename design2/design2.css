@@ -3,7 +3,7 @@ body{
     padding: 0px;
 }
 h4{
-    font-family: 黑体;
+    font-family: "黑体";
     font-size: 18px;
 }
 #containt{
@@ -28,21 +28,20 @@ h4{
     padding-left: 20px;
     color: white;
     font-size: 16px;
-    font-family: 黑体;
 }
 #top2{
     margin-top:10px;
     padding-left: 20px;
     color: white;
     font-size: 25px;
-    font-family: 黑体;
+    font-family: "黑体";
 }
 #top3{
     margin-top: 40px;
     padding-left: 20px;
     color: white;
     font-size: 20px;
-    font-family: 黑体;
+    font-family: "黑体";
 }
 .zhong{
     width: 150px;
@@ -63,9 +62,10 @@ h4{
     color: black;
 }
 .li2 .mn,#li1 .mn{
-    font-size: 18px;
-    font-family: 黑体;
+    font-size: 15px;
+    font-family: "黑体";
     color: black;
+    font-weight: bold;
 }
 .li2 .nn,#li1 .nn{
     font-size: 5px;
@@ -88,6 +88,9 @@ a{
 #four{
     margin-top: 10px;
 }
+ul{
+    list-style: none;
+}
 .right{
     margin-left: 40px;
     width: 200px;
@@ -102,9 +105,12 @@ a{
 }
 #right1top1{
     font-size: 25px;
+    font-family: "黑体";
+    font-weight: bold;
 }
 #right1top2{
-    font-size: 15px;
+    font-size: 10px;
+    font-weight: bold;
     color: #666666;
 }
 #right1b{
@@ -116,21 +122,20 @@ a{
 .right2{
     margin-top: 160px;
     margin-left: 30px;
-    font-size: 15px;
+    font-size: 13px;
     color: #666666;
-    word-spacing: 0em;
     width: 250px;
     height: 550px;
     float: left;
 }
-h6{
+h3,h5{
     margin-top: 0px;
     color: black;
 }
 #footer{
     border-top: 1.5px solid silver;
     border-bottom: 1.5px solid silver;
-    padding-top: 40px;
+    padding-top: 30px;
     margin-left: 0px;
     width: 950px;
     height: 60px;
