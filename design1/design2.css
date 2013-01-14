@@ -2,13 +2,9 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.one{
+h4{
+    font-family: 黑体;
     font-size: 18px;
-    font-weight: bold;
-}
-#two{
-    font-size: 16px;
-    font-weight: bold;
 }
 #containt{
     width: 1000px;
@@ -93,72 +89,53 @@ a{
     margin-top: 10px;
 }
 .right{
-    width: 427px;
-    height: 500px;
-    float:left;
-    margin-left: 0px;
-}
-.right2{
+    margin-left: 40px;
     width: 200px;
-    height: 500px;
-    float:left;
-    margin-left: 100px;
+    height: 550px;
+    float: left;
 }
 #right1top{
-    width: 150px;
-    height: 150px;
+    margin-left: 0px;
+    margin-top: 70px;
+    width: 200px;
+    height: 90px;
 }
 #right1top1{
-    padding-top: 50px;
-    padding-left: 0px;
-}
-#right1top2{
-    margin-top: 5px;
-    margin-left: 0px;
-}
-#rightzhong2{
-    margin-top: 80px;
-    height: 50px;
-}
-#rightzhong3{
-    margin-top: 50px;
-    width: 250px;
-    height: 80px;
-}
-#rightzhong4{
-    margin-top: 50px;
-    width: 250px;
-    height: 80px;
-}
-#rightzhong5{
-    margin-top: 80px;
-    height: 20px;
-    width: 50px;
-    float: right;
-}
-#pone{
-    margin-top: -20px;
-    color: #666666;
-    font-size: 23px;
+    font-size: 25px;
     font-weight: bold;
 }
-#ptwo{
-    margin-top: -20px;
+#right1top2{
+    font-size: 10px;
+    font-weight: bold;
     color: #666666;
-    font-size: 15px;
 }
-#pthree{
-    margin-top: -20px;
+#right1b{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 200px;
+    height: 400px;
+}
+.right2{
+    margin-top: 160px;
+    margin-left: 30px;
+    font-size: 13px;
     color: #666666;
+    width: 250px;
+    height: 550px;
+    float: left;
+}
+h3,h5{
+    margin-top: 0px;
+    color: black;
 }
 #footer{
     border-top: 1.5px solid silver;
     border-bottom: 1.5px solid silver;
-    padding-top: 40px;
+    padding-top: 30px;
     margin-left: 0px;
     width: 950px;
     height: 60px;
-    margin-top: 20px;
+    margin-top: 0px;
     float: left;
     clear:left;
 }

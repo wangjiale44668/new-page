@@ -2,14 +2,6 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.one{
-    font-size: 18px;
-    font-weight: bold;
-}
-#two{
-    font-size: 16px;
-    font-weight: bold;
-}
 #containt{
     width: 1000px;
     height: 800px;
@@ -92,64 +84,96 @@ a{
 #four{
     margin-top: 10px;
 }
-.right{
-    width: 427px;
-    height: 500px;
-    float:left;
-    margin-left: 0px;
-}
-.right2{
+#right1{
+    margin-left: 60px;
     width: 200px;
-    height: 500px;
-    float:left;
-    margin-left: 100px;
+    height: 1500px;
+    float: left;
 }
-#right1top{
-    width: 150px;
-    height: 150px;
-}
-#right1top1{
-    padding-top: 50px;
-    padding-left: 0px;
-}
-#right1top2{
-    margin-top: 5px;
-    margin-left: 0px;
-}
-#rightzhong2{
-    margin-top: 80px;
+#right11{
+    margin-top: 70px;
+    width: 200px;
     height: 50px;
 }
-#rightzhong3{
-    margin-top: 50px;
-    width: 250px;
-    height: 80px;
-}
-#rightzhong4{
-    margin-top: 50px;
-    width: 250px;
-    height: 80px;
-}
-#rightzhong5{
-    margin-top: 80px;
-    height: 20px;
-    width: 50px;
-    float: right;
-}
-#pone{
-    margin-top: -20px;
-    color: #666666;
-    font-size: 23px;
+#right1top1{
+    font-size: 25px;
     font-weight: bold;
 }
-#ptwo{
-    margin-top: -20px;
-    color: #666666;
+#right1top2{
     font-size: 15px;
-}
-#pthree{
-    margin-top: -20px;
+    font-weight: bold;
     color: #666666;
+}
+#tupian1{
+    margin-top: 40px;
+    width: 200px;
+    height: 800px;
+}
+.jieshi{
+    color: #666666;
+    margin-top: 20px;
+    width: 170px;
+    height: 140px;
+    font-size: 3px;
+}
+.lione,.litwo{
+    float:left;
+    width: 40px;
+}
+.lithree{
+    float:left;
+    clear:left;
+    width: 40px;
+}
+.lifour{
+    float: left;
+    width: 100px;
+}
+.lifive{
+    float: left;
+    width: 130px;
+}
+.ul2{
+    list-style: none;
+    margin-left: -40px
+}
+.ul2 li{
+    line-height: 20px;
+    display: block;
+}
+.span1{
+    background-color: #fa8072;
+    display:inline-block;    width: 50px;
+    color: #666;
+    font-family: 黑体;
+    float: left;
+}
+.span2{
+    display: inline-block;
+    color: #666;
+    float: left;
+}
+.right2span{
+    display: block;
+
+    color: #666;
+    float: left;
+}
+.right2span2{
+    display: block;
+    padding-left: 0px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: #666;
+    float: left;
+}
+.right2{
+    margin-top: 160px;
+    margin-left: 60px;
+    width: 200px;
+    height: 800px;
+    float: left;
 }
 #footer{
     border-top: 1.5px solid silver;
@@ -158,7 +182,8 @@ a{
     margin-left: 0px;
     width: 950px;
     height: 60px;
-    margin-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 20px;
     float: left;
     clear:left;
 }

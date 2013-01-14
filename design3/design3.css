@@ -91,7 +91,7 @@ a{
     margin-left: 50px;
 }
 .right2{
-    width: 280px;
+    width: 260px;
     height: 600px;
     float:left;
     margin-left: 50px;
@@ -104,12 +104,13 @@ a{
     padding-top: 70px;
     padding-left: 0px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
 }
 #right1top2{
     margin-top: 5px;
     margin-left: 0px;
     font-size: 10px;
+    font-weight: bold;
     color: #666666;
 }
 #right1zhong{
@@ -118,7 +119,7 @@ a{
 }
 #right1zhong2{
     margin-top: -10px;
-    color: silver;
+    color: #666666;
     font-size: 20px;
     width: 220px;
     font-weight:bolder;
@@ -135,11 +136,12 @@ a{
     width: 250px;
     heght:10px;
     font-size: 5px;
-    color: silver;
+    color: #666666;
     letter-spacing: -1.5px;
 }
 #rightzhong3{
     margin-top: 180px;
+    width: 260px;
     height: 250px;
     color: #666666;
     font-family: inherit;
@@ -153,7 +155,7 @@ a{
     border-bottom: 1.5px solid silver;
     padding-top: 40px;
     margin-left: 0px;
-    width: 950px;
+    width: 960px;
     height: 60px;
     margin-top: 0px;
     float: left;

@@ -102,10 +102,12 @@ a{
 }
 #right1top1{
     font-size: 25px;
+    font-weight: bold;
 }
 #right1top2{
     font-size: 15px;
     color: #666666;
+    font-weight: bold;
 }
 .right1b{
     margin-left: 0px;
@@ -122,9 +124,10 @@ a{
     text-align: center;
     font-family: 黑体;
     color: #666;
+    font-weight: bold;
 }
-.rightlb3{
-    margin-top: 35px;
+.rightlb33{
+    margin-top: 30px;
     height: 180px;
 }
 ul{
@@ -174,6 +177,7 @@ ul{
 .rightlb3{
     margin-top: 35px;
     height: 180px;
+    color: #666666;
 }
 #rightlb6{
     margin-top: 15px;
@@ -214,9 +218,10 @@ ul{
     margin-left: 20px;
     padding-bottom: 10px;
     font-size: 17px;
-    color: #666;
-    font-family: 黑体;
+    color: #666666;
     float: left;
+    font-size: 14px;
+    font-weight:bold;
 }
 .right2span2{
     display: block;
@@ -226,15 +231,19 @@ ul{
     font-size: 17px;
     color: #666;
     float: left;
+    font-size: 17px;
+    font-weight:bold;
 }
 #footer{
     border-top: 1.5px solid silver;
     border-bottom: 1.5px solid silver;
-    padding-top: 40px;
     margin-left: 0px;
     width: 950px;
-    height: 60px;
+    height: 100px;
     margin-top: 0px;
     float: left;
     clear:left;
+}
+#vv{
+    padding-top: 40px;
 }
