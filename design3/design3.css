@@ -44,35 +44,73 @@ body{
     height: 186px;
     margin-top: 30px;
 }
-.zhong ul #li1{
+.zhong ul .li1{
     width: 158px;
-    height: 30px;
+    height: 28px;
     margin-left: -40px;
     border: 1px solid silver;
-}
-.li2 .mm,#li1 .mm{
-    display:block;
-    float: left;
-    margin-top:5px;
-    color: black;
-}
-.li2 .mn,#li1 .mn{
-    font-size: 15px;
-    font-family: "黑体";
-    color: black;
-    font-weight: bold;
-}
-.li2 .nn,#li1 .nn{
-    font-size: 5px;
-    color: silver;
 }
 .zhong ul .li2{
     color: black;
     width: 158px;
-    height: 30px;
+    height: 29px;
     margin-left: -40px;
     border: 1px solid silver;
     border-top:0px;
+}
+.li11{
+    width: 15px;
+    padding-top: 5px;
+    margin-left: 15px;
+    float: left;
+    color: black;
+}
+.li12{
+    padding-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+    width: 70px;
+    font-weight: bold;
+    float: left;
+}
+.li13{
+    padding-top: 8px;
+    margin-left: 5px;
+    font-size: 10px;
+    color: #666666;
+    width: 40px;
+    float: left;
+}
+.li14{
+    padding-top: 8px;
+    margin-left: 20px;
+    font-size: 10px;
+    color: #666666;
+    width: 40px;
+    float: left;
+}
+.li22{
+    margin-left: 0px;
+    margin-top: 3px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+.li23{
+    margin-left: 0px;
+    margin-top: 5px;
+    height: 28px;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+}
+.li33{
+    float: left;
+    margin-top: 5px;
+    margin-left: 6px;
+    color: black;
+    font-weight: bold;
 }
 a{
     text-decoration: none;
@@ -121,20 +159,24 @@ ul{
 .lione,.litwo{
     float:left;
     width: 40px;
+    font-size: 10px;
 }
 .lithree{
     float:left;
     clear:left;
     width: 40px;
     height: 20px;
+    font-size: 10px;
 }
 .lifour{
     float: left;
     width: 100px;
+    font-size: 10px;
 }
 .lifive{
     float: left;
     width: 170px;
+    font-size: 10px;
     margin-left: 40px;
     margin-top: -20px;
     word-spacing: -10px;
@@ -179,16 +221,19 @@ ul{
     width: 200px;
     height: 800px;
     float: left;
+    white-space: nowrap;
 }
 #footer{
     border-top: 1.5px solid silver;
     border-bottom: 1.5px solid silver;
-    padding-top: 40px;
+    margin-top: 30px;
     margin-left: 0px;
+    margin-bottom: 10px;
     width: 950px;
-    height: 60px;
-    margin-top: 100px;
-    margin-bottom: 20px;
+    height: 100px;
     float: left;
-    clear:left;
+}
+#footer #vv{
+    margin-top: 43px;
+    margin-left: 0px;
 }

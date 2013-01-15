@@ -24,7 +24,6 @@ body{
     padding-left: 20px;
     color: white;
     font-size: 16px;
-    font-family: "黑体";
 }
 #top2{
     margin-top:10px;
@@ -45,36 +44,73 @@ body{
     height: 186px;
     margin-top: 30px;
 }
-.zhong ul #li1{
+.zhong ul .li1{
     width: 158px;
-    height: 30px;
+    height: 28px;
     margin-left: -40px;
     border: 1px solid silver;
-}
-
-.li2 .mm,#li1 .mm{
-    display:block;
-    float: left;
-    margin-top:5px;
-    color: black;
-}
-.li2 .mn,#li1 .mn{
-    font-size: 15px;
-    font-family: "黑体";
-    color: black;
-    font-weight: bold;
-}
-.li2 .nn,#li1 .nn{
-    font-size: 5px;
-    color: silver;
 }
 .zhong ul .li2{
     color: black;
     width: 158px;
-    height: 30px;
+    height: 29px;
     margin-left: -40px;
     border: 1px solid silver;
     border-top:0px;
+}
+.li11{
+    width: 15px;
+    padding-top: 5px;
+    margin-left: 15px;
+    float: left;
+    color: black;
+}
+.li12{
+    padding-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+    width: 70px;
+    font-weight: bold;
+    float: left;
+}
+.li13{
+    padding-top: 8px;
+    margin-left: 5px;
+    font-size: 10px;
+    color: #666666;
+    width: 40px;
+    float: left;
+}
+.li14{
+    padding-top: 8px;
+    margin-left: 20px;
+    font-size: 10px;
+    color: #666666;
+    width: 40px;
+    float: left;
+}
+.li22{
+    margin-left: 0px;
+    margin-top: 3px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+.li23{
+    margin-left: 0px;
+    margin-top: 5px;
+    height: 28px;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+}
+.li33{
+    float: left;
+    margin-top: 5px;
+    margin-left: 6px;
+    color: black;
+    font-weight: bold;
 }
 a{
     text-decoration: none;
@@ -104,9 +140,17 @@ ul{
     font-size: 25px;
     font-weight: bold;
 }
-#right1top2{
-    font-size: 15px;
+.right1top21{
+    font-size: 17px;
+    float: left;
+    color: #666666;
+    font-weight:bold;
+}
+#right1top22{
+    font-size: 5px;
     font-weight: bold;
+    margin-top: 2px;
+    float: left;
     color: #666666;
 }
 #right1b{
@@ -116,8 +160,9 @@ ul{
     width:200px;
     height: 180px;
     margin-top:90px;
-    font-size: 15px;
-    color: #666;
+    font-size: 14px;
+    white-space: nowrap;
+    color: #666666;
 }
 #right2{
 
@@ -173,8 +218,9 @@ ul{
     margin-top: 40px;
     width: 250px;
     height: 100px;
-    font-size: 15px;
+    font-size: 14px;
     font-style: italic;
+    white-space: nowrap;
 }
 #right3{
     margin-top: 160px;
@@ -189,11 +235,14 @@ ul{
 #footer{
     border-top: 1.5px solid silver;
     border-bottom: 1.5px solid silver;
-    padding-top: 40px;
+    margin-top: 30px;
     margin-left: 0px;
+    margin-bottom: 10px;
     width: 950px;
-    height: 60px;
-    margin-top: 0px;
+    height: 100px;
     float: left;
-    clear:left;
+}
+#footer #vv{
+    margin-top: 43px;
+    margin-left: 0px;
 }
