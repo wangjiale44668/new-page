@@ -75,15 +75,18 @@ body{
 }
 .li12{
     padding-top: 5px;
-    margin-left: 5px;
+    margin-left: 0px;
+    padding-left: 5px;
     font-size: 14px;
     width: 70px;
+    color: black;
     font-weight: bold;
     float: left;
 }
 .li13{
     padding-top: 8px;
-    margin-left: 5px;
+    margin-left: 0px;
+    padding-left: 5px;
     font-size: 10px;
     color: #666666;
     width: 40px;
@@ -91,7 +94,8 @@ body{
 }
 .li14{
     padding-top: 8px;
-    margin-left: 20px;
+    margin-left: 0px;
+    padding-left: 20px;
     font-size: 10px;
     color: #666666;
     width: 40px;
@@ -103,6 +107,7 @@ body{
     height: 28px;
     font-size: 20px;
     font-weight: bold;
+    color: black;
     float: left;
 }
 .li23{
@@ -111,12 +116,14 @@ body{
     height: 28px;
     font-size: 15px;
     font-weight: bold;
+    color: black;
     float: left;
 }
 .li33{
     float: left;
     margin-top: 5px;
-    margin-left: 6px;
+    margin-left: 0px;
+    padding-left: 6px;
     color: black;
     font-weight: bold;
 }
@@ -188,7 +195,7 @@ ul{
     font-size: 15px;
 }
 #pthree{
-    margin-top: -20px;
+    margin-top: -15px;
     color: #666666;
 }
 #footer{
